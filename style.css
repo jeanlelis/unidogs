@@ -391,6 +391,7 @@
     background-color: var(--color-primary);
     visibility: hidden;
     z-index: 3;
+    -webkit-transform:translate3d(0,0,100px);
     box-shadow: 0 2px 3px 0 rgb(48 48 48 / 30%), 0 6px 10px 4px rgb(48 48 48 / 15%);
   }
   
