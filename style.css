@@ -131,7 +131,6 @@
   
   /**** z-index ****/
   
-  .nav-bar,
   .profile-picture {
     z-index: 1;
   }
@@ -452,6 +451,10 @@
   
   .footer-links {
     margin-left: 50px;
+  }
+
+  .nav-bar {
+    z-index: 2;
   }
   
   
