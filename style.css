@@ -450,9 +450,9 @@
     font-weight: 500;
   }
   
-  .footer-links {
-    margin-left: 50px;
-  }
+ .footer-item {
+  margin-left: 50px;
+ }
 
   .nav-bar {
     z-index: 2;
