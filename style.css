@@ -390,7 +390,7 @@
     position: fixed;
     background-color: var(--color-primary);
     visibility: hidden;
-    z-index: 2;
+    z-index: 3;
     box-shadow: 0 2px 3px 0 rgb(48 48 48 / 30%), 0 6px 10px 4px rgb(48 48 48 / 15%);
   }
   
