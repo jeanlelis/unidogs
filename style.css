@@ -207,6 +207,8 @@ body {
 }
 
 .button-arrow-right {
+  width: 17px;
+  height: 17px;
   margin-left: 20px;
   transition: transform 1s;
 }
@@ -346,4 +348,9 @@ ul {
 
 .footer-item {
   margin-left: 50px;
+}
+
+.service-img {
+  width: 90px;
+  height: 90px;
 }
