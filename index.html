@@ -1,4 +1,3 @@
-
 <html lang="en">
     <head>
       <meta charset="UTF-8" />
@@ -12,65 +11,63 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
         rel="stylesheet"
       />
-      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-      <div class="side-bar">
-        <div class="side-bar-header">
+      <div class="side-bar height-100per position-fixed background-color-primary top-0 z-index-3 side-bar-collapsed">
+        <div class="side-bar-header flex align-center height-50px">
           <img class="side-bar-close-icon bar-icon" src="svg/close-icon.svg" alt="">
         </div>
-        <div class="side-bar-links">
+        <div class="side-bar-links margin-top-50px align-justify-center flex text-align-center">
           <ul>
-            <li class="side-bar-item"> <a href="index.html">Home</a></li>
-            <li class="side-bar-item"> <a href="https://wa.me/351966403681" target="_blank">Agendar</a></li>
-            <li class="side-bar-item"> <a href="https://instagram.com/unidogs_petgrooming" target="_blank">Galeria</a></li>
-            <li class="side-bar-item"> <a href="contacts.html">Contatos</a></li>
+            <li class="side-bar-item text-color-white"> <a href="index.html">Home</a></li>
+            <li class="side-bar-item text-color-white"> <a href="https://wa.me/351966403681" target="_blank">Agendar</a></li>
+            <li class="side-bar-item text-color-white"> <a href="https://instagram.com/unidogs_petgrooming" target="_blank">Galeria</a></li>
+            <li class="side-bar-item text-color-white"> <a href="contacts.html">Contatos</a></li>
           </ul>
         </div>
       </div>
-      <div class="whatsapp-button">
+      <div class="whatsapp-button position-fixed z-index-2">
         <a href="https://wa.me/351966403681" target="_blank">
         <img class="whatsapp-icon" src="svg/whatsapp.svg" alt="whatsapp">
     </a>
     </div>
       <header>
         <nav>
-          <div class="nav-bar">
-            <div class="icon-wrapper">
-              <img class="menu-bar bar-icon" src="svg/menu-icon.svg" alt="menu-bar" />
+          <div class="nav-bar position-fixed flex align-center width-100vw height-50px top-0 z-index-2">
+            <div class="icon-wrapper flex align-justify-center position-absolute border-radius-100">
+              <img class="menu-bar bar-icon position-relative" src="svg/menu-icon.svg" alt="menu-bar" />
             </div>
           </div>
         </nav>
-      
       </header>
-  
       <main>
-        <section class="header-section">
-          <div class="header-flex">
+        <section class="header-section position-relative width-100vw">
+          <div class="header-flex flex align-justify-center width-100vw">
             <img class="logo" src="img/unidogs-logo.png" alt="logo" />
             <div class="brand-text">
-              <h1 class="brand-name">Unidogs</h1>
-              <h2 class="brand-name-secondary">pet grooming</h2>
+              <h1 class="brand-name text-color-secondary font-weight-700">Unidogs</h1>
+              <h2 class="brand-name-secondary text-color-secondary font-weight-600">pet grooming</h2>
             </div>
           </div>
         </section>
-        <section class="call-to-action">
-          <div class="call-to-action-flex">
-            <div class="cta-text-wrapper">
-              <p class="call-to-action-text">
-                Vamos mimar o seu <span class="pet-text">pet</span>?
+        <section class="call-to-action position-relative width-100vw margin-top-50px">
+          <div class="call-to-action-flex flex align-justify-center">
+            <div class="cta-text-wrapper text-align-center">
+              <p class="call-to-action-text text-color-secondary font-weight-400">
+                Vamos mimar o seu <span class="pet-text font-weight-600">pet</span>?
               </p>
             </div>
             <img class="dog-image" src="svg/dog.svg" alt="dog-image" />
           </div>
-          <div class="button-wrapper">
+          <div class="button-wrapper position-relative flex justify-center width-100vw margin-top-50px">
             <a
               class="whatsapp-link"
               href="https://wa.me/351966403681"
               target="_blank"
             >
-              <div class="button">
-                <p class="button-text">Agendar já</p>
+              <div class="button flex align-justify-center background-color-primary height-50px border-radius-100">
+                <p class="button-text text-color-white font-size-16 font-weight-600">Agendar já</p>
                 <img
                   class="button-arrow-right"
                   src="svg/arrow-right.svg"
@@ -81,28 +78,28 @@
           </div>
         </section>
   
-        <section class="services-wrapper">
-          <div class="services">
-            <div class="item-1">
-              <h1 class="service-title">Banho</h1>
+        <section class="services-wrapper position-relative">
+          <div class="services flex justify-center">
+            <div class="item-1 text-align-center margin-top-50px">
+              <h1 class="service-title text-color-secondary font-weight-700">Banho</h1>
               <img
-                class="service-img"
+                class="service-img margin-top-50px"
                 src="svg/icon_pet_shampoo.svg"
                 alt="pet-shampoo"
               />
-              <p class="services-text">
+              <p class="services-text text-color-secondary font-size-16 font-weight-300 margin-top-50px">
                 A higiene so seu cão é muito importante para o seu próprio
                 conforto bem como para o conforto dos donos.
               </p>
             </div>
-            <div class="item-2">
-              <h1 class="service-title">Tosquia</h1>
+            <div class="item-2 text-align-center margin-top-50px">
+              <h1 class="service-title text-color-secondary font-weight-700">Tosquia</h1>
               <img
-                class="service-img"
+                class="service-img margin-top-50px"
                 src="svg/icon_pet_grooming.svg"
                 alt="pet-grooming"
               />
-              <p class="services-text">
+              <p class="services-text text-color-secondary font-size-16 font-weight-300 margin-top-50px">
                 A tosquia é essencial para cães de pelo médio/longo de modo a
                 evitar problemas de pele e manter um visual interessante.
               </p>
@@ -110,17 +107,17 @@
           </div>
         </section>
   
-        <section class="presentation-wrapper">
-          <div class="presentation">
-            <img src="img/mary-mattos.png" alt="" class="profile-picture" />
-            <div class="profile-gradient"></div>
+        <section class="presentation-wrapper position-relative margin-top-50px">
+          <div class="presentation flex align-justify-center">
+            <img src="img/mary-mattos.png" alt="" class="profile-picture z-index-1" />
+            <div class="profile-gradient position-absolute"></div>
           </div>
-          <div class="presentation-text-wrapper">
+          <div class="presentation-text-wrapper margin-top-50px">
             <p class="presentation-text">
-              <p class="presentation-text">
+              <p class="presentation-text text-color-secondary font-size-16 font-weight-300 text-align-center">
                 Somos uma equipa devidamente formada e preparada para proporcionar o bem-estar do seu pet.
               </p>
-              <p class="presentation-text">
+              <p class="presentation-text text-color-secondary font-size-16 font-weight-300 text-align-center">
                 Venha visitar-nos e proporcionar excelentes momentos de relaxamento e felicidade ao seu cão.
               </p>
             </p>
@@ -128,16 +125,16 @@
           </div>
         </section>
       </main>
-      <footer>
+      <footer class="position-relative height-300px margin-top-50px">
         <div class="paw-footer">
-          <img src="svg/paws_footer.svg" alt="">
-          <div class="footer-links">
+          <img class="width-100vw height-300px" src="svg/paws_footer.svg" alt="">
+          <div class="footer-links position-absolute flex align-center width-100vw height-100per text-color-white font-size-16 font-weight-500 top-0">
             <ul>
               <li class="footer-item"><a href="https://wa.me/351966403681" target="_blank">Agendar</a></li>
               <li class="footer-item"><a href="contacts.html">Contatos</a></li>
             </ul>
           </div>
-          <div class="social-media-icons">
+          <div class="social-media-icons position-absolute text-color-white">
             <a href="https://instagram.com/unidogs_petgrooming" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
             <a href="https://www.facebook.com/Unidogs_Petgrooming-104316328724080" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a>
           </div>
@@ -145,4 +142,4 @@
       </footer>
       <script src="https://kit.fontawesome.com/08905cb86a.js" crossorigin="anonymous"></script>
       <script src="app.js"></script>
-   
+    </body>

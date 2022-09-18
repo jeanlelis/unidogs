@@ -11,48 +11,56 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="svg/favicon.png">
+    <link rel="icon" type="image/x-icon" href="svg/favicon.png" />
   </head>
   <body>
-    <div class="side-bar">
-      <div class="side-bar-header">
+    <div
+      class="side-bar height-100per position-fixed background-color-primary top-0 z-index-3"
+    >
+      <div class="side-bar-header flex align-center height-50px">
         <img
           class="side-bar-close-icon bar-icon"
           src="svg/close-icon.svg"
           alt=""
         />
       </div>
-      <div class="side-bar-links">
+      <div
+        class="side-bar-links margin-top-50px align-justify-center flex text-align-center"
+      >
         <ul>
-          <li class="side-bar-item"><a href="index.html">Home</a></li>
-          <li class="side-bar-item">
+          <li class="side-bar-item text-color-white">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="side-bar-item text-color-white">
             <a href="https://wa.me/351966403681" target="_blank">Agendar</a>
           </li>
-          <li class="side-bar-item">
+          <li class="side-bar-item text-color-white">
             <a href="https://instagram.com/unidogs_petgrooming" target="_blank"
               >Galeria</a
             >
           </li>
-          <li class="side-bar-item"><a href="contacts.html">Contatos</a></li>
+          <li class="side-bar-item text-color-white">
+            <a href="contacts.html">Contatos</a>
+          </li>
         </ul>
       </div>
     </div>
-    <div class="whatsapp-button">
+    <div class="whatsapp-button position-fixed z-index-2">
       <a href="https://wa.me/351966403681" target="_blank">
-        <img
-          class="whatsapp-icon"
-          src="svg/whatsapp.svg"
-          alt="whatsapp"
-        />
+        <img class="whatsapp-icon" src="svg/whatsapp.svg" alt="whatsapp" />
       </a>
     </div>
     <div class="content">
       <header>
         <nav>
-          <div class="nav-bar">
-            <div class="icon-wrapper">
+          <div
+            class="nav-bar position-fixed flex align-center width-100vw height-50px top-0 z-index-2"
+          >
+            <div
+              class="icon-wrapper flex align-justify-center position-absolute border-radius-100"
+            >
               <img
-                class="menu-bar bar-icon"
+                class="menu-bar bar-icon position-relative"
                 src="svg/menu-icon.svg"
                 alt="menu-bar"
               />
@@ -61,18 +69,26 @@
         </nav>
       </header>
       <main>
-        <section class="header-section-contacts">
+        <section class="header-section-contacts margin-top-50px">
           <img
-            class="header-img"
+            class="header-img width-100vw"
             src="img/unidogs_store.png"
             alt="store"
           />
         </section>
-        <section class="contact-info">
+        <section
+          class="contact-info margin-top-50px flex align-center text-align-center"
+        >
           <div class="address-info">
             <img class="address-icon" src="svg/map.svg" alt="map-icon" />
-            <p class="address-line-1">Rua António Lopes Ribeiro, 7A</p>
-            <p class="address-line-2">1750-312 Lisboa</p>
+            <p
+              class="address-line-1 text-color-secondary font-size-16 margin-top-50px"
+            >
+              Rua António Lopes Ribeiro, 7A
+            </p>
+            <p class="address-line-2 text-color-secondary font-size-16">
+              1750-312 Lisboa
+            </p>
           </div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.840604023121!2d-9.155912784187372!3d38.76735977959107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19337a12cecb2f%3A0xb9f5a2f6e2e1e4c5!2sUnidogs%20Petgrooming!5e0!3m2!1sen!2spt!4v1663364342465!5m2!1sen!2spt"
@@ -83,30 +99,35 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-          <div class="address-info">
+          <div class="address-info margin-top-50px">
             <img src="svg/phone.svg" alt="phone-icon" />
-            <p class="phone-line">
+            <p
+              class="phone-line text-color-secondary font-size-16 margin-top-50px"
+            >
               <a href="tel:+351966403681">+351 966 403 681</a>
             </p>
           </div>
         </section>
       </main>
     </div>
-    <footer>
+    <footer class="position-relative height-300px margin-top-50px">
       <div class="paw-footer">
         <img
+          class="width-100vw height-300px"
           src="svg/paws_footer.svg"
           alt=""
         />
-        <div class="footer-links">
+        <div
+          class="footer-links position-absolute flex align-center width-100vw height-100per text-color-white font-size-16 font-weight-500 top-0"
+        >
           <ul>
-            <li>
+            <li class="footer-item">
               <a href="https://wa.me/351966403681" target="_blank">Agendar</a>
             </li>
-            <li><a href="contacts.html">Contatos</a></li>
+            <li class="footer-item"><a href="contacts.html">Contatos</a></li>
           </ul>
         </div>
-        <div class="social-media-icons">
+        <div class="social-media-icons position-absolute text-color-white">
           <a href="https://instagram.com/unidogs_petgrooming" target="_blank"
             ><i class="fa-brands fa-instagram fa-2xl"></i
           ></a>
