@@ -244,10 +244,6 @@ a:active {
   );
 }
 
-.paw-footer img {
-  object-fit: cover;
-}
-
 .footer-links {
   line-height: 40px;
 }
@@ -265,13 +261,20 @@ ul {
 }
 
 .social-media-icons {
-  top: 50%;
+  top: 0;
   right: 0;
   padding-right: 50px;
 }
 
-.fa-facebook {
+.instagram-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.facebook-icon {
   padding-left: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 .contact-info {
@@ -334,10 +337,6 @@ ul {
   margin-right: 20px;
 }
 
-.collapsed {
-  animation: fade-out 500ms forwards;
-}
-
 .bar-icon {
   cursor: pointer;
 }
@@ -353,4 +352,12 @@ ul {
 .service-img {
   width: 90px;
   height: 90px;
+}
+
+.paw-footer-img {
+  object-fit: cover;
+}
+
+footer {
+  overflow: hidden;
 }
