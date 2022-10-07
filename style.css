@@ -38,6 +38,10 @@ body {
   display: flex;
 }
 
+.flex-dir-column {
+  flex-direction: column;
+}
+
 .align-justify-center {
   align-items: center;
   justify-content: center;
